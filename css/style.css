@@ -1,0 +1,73 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+@font-face {
+  font-family: Lato_h1;
+  src: url(fonts/Lato-Black.ttf);
+}
+@font-face {
+  font-family: Lato_h2;
+  src: url(fonts/Lato-Regular.ttf);
+}
+@font-face {
+  font-family: Lato_p;
+  src: url(fonts/Lato-Light.ttf);
+}
+.banner-wraper {
+  /*background-color: #E8C659;*/
+  position: relative;
+}
+
+.banner-1 {
+  position: relative;
+  max-width: 100vw;
+  padding-right: 2%;
+}
+
+.h1-heading {
+  position: absolute;
+  font-size: 9vw;
+  color: #fff;
+  top: 20%;
+  padding-left: 2%;
+  padding-right: 2%;
+}
+
+.descr {
+  position: absolute;
+  font-size: 4vw;
+  color: #fff;
+  top: 50%;
+  padding-left: 5%;
+}
+
+.btn {
+  position: absolute;
+  top: 550px;
+  margin-left: 50%;
+  background-color: #FF0000;
+}
+
+.banner-3 {
+  position: relative;
+  max-width: 100vw;
+  padding-right: 2%;
+}
+
+.h2-heading {
+  position: absolute;
+  top: 200px;
+}
+
+.descr-2 {
+  position: absolute;
+  top: 300px;
+}
+
+.banner-2 {
+  margin-top: 200px;
+  max-width: 100vw;
+  padding-right: 2%;
+}
